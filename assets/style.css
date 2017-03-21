@@ -1,0 +1,20 @@
+.body{
+
+}
+
+.box-blue{
+  margin: 100px;
+  height: 600px;
+  background-color: rgb(227, 235, 247);
+}
+
+.box-gray{
+  margin: 100px;
+  height: 600px;
+  background-color: rgb(212, 216, 221);
+}
+
+
+#self{
+  margin: 30px;
+}
