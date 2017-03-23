@@ -1,20 +1,49 @@
-.body{
+.body {}
 
+.box-blue {
+    margin: 100px;
+    height: 600px;
+    background-color: rgb(227, 235, 247);
 }
 
-.box-blue{
-  margin: 100px;
-  height: 600px;
-  background-color: rgb(227, 235, 247);
+.box-gray {
+    margin: 100px;
+    height: 600px;
+    background-color: rgb(212, 216, 221);
 }
 
-.box-gray{
-  margin: 100px;
-  height: 600px;
-  background-color: rgb(212, 216, 221);
+.header{
+  padding-top:15px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: rgb(216, 0, 54);
 }
 
+.text {
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
 
-#self{
-  margin: 30px;
+#bio-header {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: rgb(216, 0, 54);
+    margin-bottom: 10px;
+}
+
+#main-bio {
+    text-align: left;
+    margin: 30px;
+    display: inline-block;
+    width: 650px;
+    vertical-align: top;
+}
+
+#main-pic {
+    display: inline-block;
+    margin: 30px;
 }
