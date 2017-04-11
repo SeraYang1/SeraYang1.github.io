@@ -2,45 +2,79 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/style.css" />
+	<script src="assets/jquery-1.9.1.js"></script>
+	<script src="assets/script.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Slabo+27px" rel="stylesheet">
 	<title> Sera Yang </title>
 </head>
 
 <body>
-	<div class="box-blue">
-		<div id="main-pic">
-			<img src="assets/img/me.jpg" width=400px>
-		</div>
-		<div id="main-bio">
-			<div id="bio-header"><b>Bio:</b>
+	<div id="top-bar">
+		<nav>
+			<ul id="menu">
+				<li class="menu-item" id="link-edu">
+					<a href="#">Education</a>
+				</li>
+				<li class="menu-item" id="link-proj">
+					<a href="#">Projects</a>
+				</li>
+				<li class="menu-item" id="link-work">
+					<a href="#">Work Experience</a>
+				</li>
+				<li class="menu-item" id="link-skills">
+					<a href="#">Skills</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<div id="content">
+		<div class="box-blue">
+			<div id="main-pic">
+				<img src="assets/img/me.jpg" width=400px>
 			</div>
-			<div class="text">
-				I'm currently a freshman studying Electrical Engineering and Computer Science at UC Berkeley. I started programming my junior year of high school and I really enjoyed it. After my first class, I did a summer program called COSMOS where I did video game
-				design for a month and that really sparked my interest in programming.
+			<div id="main-bio">
+				<div id="bio-header"><b>Bio:</b>
+				</div>
+				<div class="text">
+					I'm currently a freshman studying Electrical Engineering and Computer Science at UC Berkeley. I started programming my junior year of high school and I really enjoyed it. After my first class, I did a summer program called COSMOS where I did video game
+					design for a month and that really sparked my interest in programming.
+				</div>
+				<div id="links"><a href="assets/resume.pdf" target="_blank" class="link"> >> Resume </a></div>
+				<div id="links"><a href="https://github.com/SeraYang1" target="_blank" class="link"> >> Github </a></div>
+				<div id="links"><a href="https://www.linkedin.com/in/sera-yang/" target="_blank" class="link"> >> LinkedIn </a></div>
+			</div>
+		</div>
+
+		<div id="education">
+			<div class="box-gray">
+				<div class="header">Education</div>
+				<div class="text"> UC Berkeley</div>
+			</div>
+		</div>
+
+		<div id="projects">
+			<div class="box-blue">
+				<div class="header">Projects</div>
+				<div class="text"> Escape</div>
+			</div>
+		</div>
+
+		<div id="work">
+			<div class="box-gray">
+				<div class="header">Work Experience</div>
+				<div class="text"> Math Squared</div>
+			</div>
+		</div>
+
+		<div id="skills">
+			<div class="box-blue">
+				<div class="header">Skills</div>
+				<div class="text"> Java, Python </div>
 			</div>
 		</div>
 	</div>
-
-	<div class="box-gray">
-		<div class="header">Education</div>
-		<div class="text"> UC Berkeley</div>
-	</div>
-
-	<div class="box-blue">
-		<div class="header">Experience</div>
-		<div class="text"> Math Squared</div>
-	</div>
-
-	<div class="box-gray">
-		<div class="header">Projects</div>
-		<div class="text"> ESCAPE</div>
-	</div>
-
-	<div class="box-blue">
-		<div class="header">Skills</div>
-		<div class="text"> Java, Python </div>
-	</div>
-
 
 
 </body>
