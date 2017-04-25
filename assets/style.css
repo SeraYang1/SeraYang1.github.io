@@ -26,6 +26,8 @@ nav {
     text-align: left;
     font-family: 'Slabo 27px', serif;
     font-size: 20px;
+    margin:1% 2%;
+    width: 95%;
 }
 
 #top-bar {
@@ -107,10 +109,14 @@ nav {
     width: 200px;
 }
 
+.link:hover{
+  font-size: 24px;
+}
+
 .link {
     font-size: 20px;
     text-decoration: none;
-    color: red;
+    color: rgb(216, 0, 54);
     padding-right: 30%;
     font-family: 'Slabo 27px', serif;
 }
@@ -162,7 +168,7 @@ nav {
     width: 10%;
     display: inline-block;
     padding: 2% 5%;
-    text-align: center;
+    vertical-align: top;
 }
 
 .proj-img-small {
@@ -223,7 +229,7 @@ nav {
     margin: 1%;
     padding: 0.3% 2%;
     border: solid;
-    border-color: red;
+    border-color: rgb(229, 52, 45);
     border-width: 2px;
     display: inline-block;
 }
