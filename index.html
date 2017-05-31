@@ -31,135 +31,108 @@
 
 	<div id="content">
 		<div id="sera">
-			<div class="box-blue">
-				<div id="main-pic">
-					<img src="assets/img/me.jpg" width=100%>
-				</div>
-				<div id="main-bio">
-					<div class="header">Sera Yang</div>
-					<div class="text">
-						<div class="box-border">
-							<div id="big-text"><b>UC Berkeley</b></div>
-							<div class="text">
-							I am currently a freshman studying Electrical Engineering and Computer Science at UC Berkeley. I've worked on a variety of front end (such as web and iOS development) as well as back end (such as implementing and using databases) projects.
-							<p>I'm interested in game design and hope to one day be part of a team working on a larger scale multiplayer game. </p></div>
+			<div class="smaller-box">
+				<div class="smaller-box-centering">
+					<div id="main-pic">
+						<div id="white-circle-border">
+							<img src="assets/img/me.jpg" width=98% class=circle-img>
 						</div>
-
-						<div class="box-border">
-							<div id="big-text"><b>Contact</b></div>
-							<div id="links"><a href="assets/resume.pdf" target="_blank" class="link"> >> Resume </a></div>
-							<div id="links"><a href="https://github.com/SeraYang1" target="_blank" class="link"> >> Github </a></div>
-							<div id="links"><a href="https://www.linkedin.com/in/sera-yang/" target="_blank" class="link"> >> LinkedIn </a></div>
-							<div id="links"><a href="mailto:sera.yang@berkeley.edu" class="link"> >> Email </a></div>
+					</div>
+					<div id="main-bio">
+						<div class="header">Sera Yang</div>
+						<div class="text">
+							<div id="centered-link">
+								<div id="links"><a href="https://github.com/SeraYang1" target="_blank" class="link"> Github </a></div>
+								<div id="links">-</div>
+								<div id="links"><a href="https://www.linkedin.com/in/sera-yang/" target="_blank" class="link"> LinkedIn </a></div>
+								<div id="links">-</div>
+								<div id="links"><a href="mailto:sera.yang@berkeley.edu" class="link"> Email </a></div>
+							</div>
+							<div class="box-border">
+								<div id="big-text"><b>UC Berkeley</b></div>
+								<div class="text">
+									<div class="question"> sera.origin</div>
+									<div class="answer"> >>> "San Jose, CA" </div>
+									<div class="question"> sera.major</div>
+									<div class="answer"> >>> "Electrical Engineering and Computer Science" </div>
+									<div class="question"> sera.graduation</div>
+									<div class="answer"> >>> "2020" </div>
+									<div class="question"> sera.resume</div>
+									<div class="answer"> <a href="assets/resume.pdf" target="_blank" id="link-resume"> >>> "Resume" </a></div>
+								</div>
+							</div>
+							<div class="box-border">
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
 
-			<div id="projects">
-				<div class="box-blue">
+
+
+		<div id="projects">
+			<div class="smaller-box">
+				<div class="smaller-box-centering">
 					<div class="header">Projects</div>
 					<div id="project-list">
-						<div class="proj-img-big" id="alexa-nutrition">
-							<div class="proj-img-small" id="alexa-nutrition-circle">
-								<img src="assets/img/alexa-nutrition.gif" align="top" width=95%>
+						<div class="proj-small" id="alexa-nutrition-body">
+							<div class="proj-img">
+								<img src="assets/img/alexa-nutrition.gif" width=100%>
 							</div>
-							<b> Alexa Nutrition Tracker </b>
-						</div>
-						<div class="proj-img-big" id="hangman">
-							<div class="proj-img-small" id="hangman-circle">
-								<img src="assets/img/hangman.png" align="top" width=90%>
+							<div class="proj-des">
+								<b>Alexa Nutrition Tracker: </b> Amazon Alexa application that helps the user keep track of what they consumed. The user can ask Nutrition Tracker to find the caloric infromation on a food or record foods that the user consumed each day. Then,
+								based on the user's entered personal information (such as height and weight), Nutrition Tracker recommends foods based on how many calories the user should be consuming and how many they have already consumed in one day.
+								<div class="tool-list">
+									<div class="tool">AWS</div>
+									<div class="tool">Alexa</div>
+									<div class="tool">JavaScript</div>
+									<div class="tool">JSON</div>
+								</div>
 							</div>
-							<b> Hangman </b>
-						</div>
-						<div class="proj-img-big" id="escape">
-							<div class="proj-img-small" id="escape-circle">
-								<img src="assets/img/escape.png" align="top" width=100%>
-							</div>
-							<b> ESCAPE </b>
 						</div>
 
-						<div id="escape-tools">
-							<div class="tool-list">
-								<div class="tool">Unity3D</div>
-								<div class="tool">Javascript</div>
-								<div class="tool">Unity Assets</div>
+						<div class="proj-small" id="hangman-body">
+							<div class="proj-img">
+								<img src="assets/img/hangman.png" width=95%>
+							</div>
+							<div class="proj-des">
+								<b>Hangman: </b> The word guessing game, Hangman, created from scratch. The user is given how many letters are in a word, then has to guess letters to fill in the blanks until they can guess the word. For each incorrect guess, another part of
+								the hangman is drawn. Animations and UI are designed on the JFrame. User inputs are read in through ActionListener and KeyListener. Words are randomly choosen from a text file of dictionary words.
+								<div class="tool-list">
+									<div class="tool">Java</div>
+									<div class="tool">Eclipse</div>
+									<div class="tool">JFrame</div>
+									<div class="tool">Action/Key Listener</div>
+								</div>
 							</div>
 						</div>
-						<div id="hangman-tools">
-							<div class="tool-list">
-								<div class="tool">Java</div>
-								<div class="tool">Eclipse</div>
-								<div class="tool">JFrame</div>
-								<div class="tool">Action/Key Listener</div>
+
+						<div class="proj-small" id="escape-body">
+							<div class="proj-img">
+								<img src="assets/img/escape.png" width=100%>
 							</div>
-						</div>
-						<div id="alexa-nutrition-tools">
-							<div class="tool-list">
-								<div class="tool">AWS</div>
-								<div class="tool">Alexa</div>
-								<div class="tool">JavaScript</div>
-								<div class="tool">JSON</div>
+							<div class="proj-des">
+								<b>ESCAPE: </b> Player is trapped in a mansion and must interact with various objects and solve riddles to try to escape. Blueprint of the mansion is a maze-like structure that the player must remember to navigate out of the house. Most objects
+								are imported through Unity Assets but have been edited and modified to fit the aesthetic and theme.
+								<div class="tool-list">
+									<div class="tool">Unity3D</div>
+									<div class="tool">Javascript</div>
+									<div class="tool">Unity Assets</div>
+								</div>
 							</div>
 						</div>
 					</div>
-
-
-					<div class="proj-small" id="alexa-nutrition-body">
-						<div class="proj-img">
-							<img src="assets/img/alexa-nutrition.gif" width=100%>
-						</div>
-						<div class="proj-des">
-							<b>Alexa Nutrition Tracker: </b> Amazon Alexa application that helps the user keep track of what they consumed. The user can ask Nutrition Tracker to find the caloric infromation on a food or record foods that the user consumed each day. Then,
-							based on the user's entered personal information (such as height and weight), Nutrition Tracker recommends foods based on how many calories the user should be consuming and how many they have already consumed in one day.
-							<div class="tool-list">
-								<div class="tool">AWS</div>
-								<div class="tool">Alexa</div>
-								<div class="tool">JavaScript</div>
-								<div class="tool">JSON</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="proj-small" id="hangman-body">
-						<div class="proj-img">
-							<img src="assets/img/hangman.png" width=95%>
-						</div>
-						<div class="proj-des">
-							<b>Hangman: </b> The word guessing game, Hangman, created from scratch. The user is given how many letters are in a word, then has to guess letters to fill in the blanks until they can guess the word. For each incorrect guess, another part of the
-							hangman is drawn. Animations and UI are designed on the JFrame. User inputs are read in through ActionListener and KeyListener. Words are randomly choosen from a text file of dictionary words.
-							<div class="tool-list">
-								<div class="tool">Java</div>
-								<div class="tool">Eclipse</div>
-								<div class="tool">JFrame</div>
-								<div class="tool">Action/Key Listener</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="proj-small" id="escape-body">
-						<div class="proj-img">
-							<img src="assets/img/escape.png" width=100%>
-						</div>
-						<div class="proj-des">
-							<b>ESCAPE: </b> Player is trapped in a mansion and must interact with various objects and solve riddles to try to escape. Blueprint of the mansion is a maze-like structure that the player must remember to navigate out of the house. Most objects
-							are imported through Unity Assets but have been edited and modified to fit the aesthetic and theme.
-							<div class="tool-list">
-								<div class="tool">Unity3D</div>
-								<div class="tool">Javascript</div>
-								<div class="tool">Unity Assets</div>
-							</div>
-						</div>
-					</div>
-
-
 				</div>
 			</div>
+		</div>
 
 
-			<div id="work">
-				<div class="box-blue">
+
+		<div id="work">
+			<div class="smaller-box">
+				<div class="smaller-box-centering">
 					<div class="header">Work Experience</div>
 					<div class="solid-line">
 						<div class="work-img"> <img src="assets/img/math.squared.jpg" width=100%> </div>
@@ -197,17 +170,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!--
-		<div id="skills">
-			<div class="box-gray">
-				<div class="header">Skills</div>
-				<div class="text"> Java, Python </div>
-			</div>
-		</div>
-	</div>-->
-
-
 </body>
 
 </html>
