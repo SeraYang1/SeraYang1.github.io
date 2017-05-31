@@ -16,12 +16,12 @@ nav {
 
 #projects {
     width: 100%;
-    background-color: #EBF5DF;
+    background-color: #CCDAD1;
 }
 
 #work {
     width: 100%;
-    background-color: #D6F8D6;
+    background-color: #EBF5DF;
 }
 
 .smaller-box {
@@ -31,11 +31,11 @@ nav {
 }
 
 .header {
-    padding: 30px 20px 0px;
+    padding: 30px 50px 0px;
     margin-bottom: 0px;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: 38px;
     color: rgb(216, 0, 54);
 }
 
@@ -134,6 +134,58 @@ nav {
     text-align: center;
 }
 
+#header-projects {
+    padding: 40px 50px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: rgb(216, 0, 54);
+}
+
+.background-rectangle-color {
+    width: 43%;
+    background-color: #71816D;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    margin: 2% 3%;
+}
+
+#color-1 {
+    height: 68%;
+    width: 98%;
+    background-color: #64B6AC;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+#color-2 {
+    height: 68%;
+    width: 98%;
+    background-color: #5D737E;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.centered-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.white-bottom {
+    width: 98%;
+    background-color: white;
+    height: 30%;
+    position: absolute;
+    top: 69%;
+    left: 1%;
+}
+
 .box-border {
     margin: 1% 0%;
     padding-top: 2%;
@@ -171,10 +223,6 @@ nav {
     text-decoration: none;
     color: #a54545;
     font-family: 'Slabo 27px', serif;
-}
-
-#projects {
-    margin-top: 20px;
 }
 
 #project-list {
@@ -240,21 +288,6 @@ nav {
     font-size: 20px;
     font-family: 'Slabo 27px', serif;
     vertical-align: top;
-}
-
-#alexa-nutrition:hover #alexa-nutrition-circle {
-    border-width: 3px;
-    border-color: rgb(216, 0, 54);
-}
-
-#hangman:hover #hangman-circle {
-    border-width: 3px;
-    border-color: rgb(216, 0, 54);
-}
-
-#escape:hover #escape-circle {
-    border-width: 3px;
-    border-color: rgb(216, 0, 54);
 }
 
 .tool-list {
