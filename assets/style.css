@@ -154,39 +154,39 @@ nav {
 
 #color-1 {
     height: 68%;
-    width: 98%;
-    background-color: #64B6AC;
+    width: 99%;
+    background-color: #C4CAD0;
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 0.5%;
+    left: 0.5%;
 }
 
 #color-2 {
     height: 68%;
-    width: 98%;
-    background-color: #5D737E;
+    width: 99%;
+    background-color: #D0E3CC;
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 0.5%;
+    left: 0.5%;
 }
 
 
 #color-3 {
     height: 68%;
-    width: 98%;
-    background-color: #4C6085;
+    width: 99%;
+    background-color: #CCC7B9;
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 0.5%;
+    left: 0.5%;
 }
 
 #color-4 {
     height: 68%;
-    width: 98%;
-    background-color: #CCC7B9;
+    width: 99%;
+    background-color: #C7D59F;
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 0.5%;
+    left: 0.5%;
 }
 
 .centered-img{
@@ -197,12 +197,12 @@ nav {
 }
 
 .white-bottom {
-    width: 98%;
+    width: 99%;
     background-color: white;
-    height: 30%;
+    height: 30.5%;
     position: absolute;
     top: 69%;
-    left: 1%;
+    left: 0.5%;
 }
 
 .box-border {
@@ -335,7 +335,7 @@ nav {
 .proj-small-text{
   font-family: 'Slabo 27px', serif;
   font-size: 18px;
-  padding: 1% 4%;
+  padding: 2% 4%;
 }
 
 .solid-line {
