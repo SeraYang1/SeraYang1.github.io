@@ -3,6 +3,10 @@ $(document).ready(function() {
   $('#white-circle-border').css({'height':cw+'px'});
 
 
+  var cw = $('.company-circle-border').width();
+  $('.company-circle-border').css({'height':cw+'px'});
+
+
     $('#link-sera').click(function() {
         $('body').animate({
             scrollTop: $('#sera').offset().top - 30

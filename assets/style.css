@@ -171,7 +171,6 @@ nav {
     left: 0.5%;
 }
 
-
 #color-3 {
     height: 68%;
     width: 99%;
@@ -190,11 +189,11 @@ nav {
     left: 0.5%;
 }
 
-.centered-img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.centered-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .white-bottom {
@@ -245,24 +244,6 @@ nav {
     font-family: 'Slabo 27px', serif;
 }
 
-#project-list {
-    text-align: center;
-    font-family: 'Slabo 27px', serif;
-    font-size: 20px;
-}
-
-#escape-tools {
-    padding-bottom: 5px;
-}
-
-#hangman-tools {
-    padding-bottom: 5px;
-}
-
-#alexa-nutrition-tools {
-    padding-bottom: 5px;
-}
-
 .proj-small {
     margin: 3%;
     bottom: 10px;
@@ -310,9 +291,9 @@ nav {
     vertical-align: top;
 }
 
-.tool-list{
-  text-align: center;
-  margin: 1% 0% 0%;
+.tool-list {
+    text-align: center;
+    margin: 1% 0% 0%;
 }
 
 .tool {
@@ -326,17 +307,17 @@ nav {
     font-family: 'Slabo 27px', serif;
 }
 
-.proj-small-title{
-  font-family: 'Slabo 27px', serif;
-  font-size: 26px;
-  padding-top: 2%;
-  text-align: center;
+.proj-small-title {
+    font-family: 'Slabo 27px', serif;
+    font-size: 26px;
+    padding-top: 2%;
+    text-align: center;
 }
 
-.proj-small-text{
-  font-family: 'Slabo 27px', serif;
-  font-size: 18px;
-  padding: 2% 4%;
+.proj-small-text {
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    padding: 2% 4%;
 }
 
 .solid-line {
@@ -347,55 +328,87 @@ nav {
     padding: 2% 2% 0% 2%;
 }
 
-.company-title{
-  margin: 0% 10% 0%;
-  display: inline-block;
+.company-title {
+    margin: 0%;
+    display: inline-block;
 }
 
-.company-link{
+.company-link {
+    font-size: 30px;
+    text-decoration: none;
+    color: #5D5D81;
+    font-family: 'Slabo 27px', serif;
+}
+
+.company-link:hover {
+    font-size: 36px;
+}
+
+.date {
+    font-size: 18px;
+    color: #9CAEA9;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 0.3%;
+}
+
+.company-position {
+    font-size: 26px;
+    text-decoration: none;
+    color: #5D5D81;
+    font-family: 'Slabo 27px', serif;
+    padding: 1% 0% 0% 1%;
+    display: inline-block;
+}
+
+.company-work {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 2%;
+    width: 93%;
+}
+
+.languages-list {
+    text-align: left;
+    margin: 2% 0% 0%;
+    width: 50%;
+}
+
+.help-img-center {}
+
+.company-img {
+    display: inline-block;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.company-other {
+    display: inline-block;
+    width: 65%;
+    margin-left: 3%;
+}
+
+.company-name{
   font-size: 30px;
   text-decoration: none;
   color: #5D5D81;
   font-family: 'Slabo 27px', serif;
 }
 
-.company-link:hover{
-  font-size: 36px;
+.company-logo{
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.date{
-  font-size: 18px;
-  color: #5D5D81;
-  font-family: 'Slabo 27px', serif;
-  display: inline-block;
-  float: right;
-  margin-top: 0.3%;
-  margin-right: 8%;
-}
-
-.company-position{
-  font-size: 26px;
-  text-decoration: none;
-  color: #9CAEA9;
-  font-family: 'Slabo 27px', serif;
-  padding: 1% 0% 0% 8%;
-  margin-left: 2%;
-  display: inline-block;
-}
-
-.company-work{
-  font-size: 22px;
-  text-decoration: none;
-  color: black;
-  font-family: 'Slabo 27px', serif;
-  padding: 1% 10%;
-  width: 80%;
-  margin-left: 10%;
-}
-
-.languages-list{
-  display: inline-block;
-  text-align: left;
-  margin: 1% 2% 0%;
-  width: 50%;
+.company-circle-border{
+  border-radius: 50%;
+  background-color: #F1BF98;
+  width: 70%;
+  position: relative;
 }
