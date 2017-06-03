@@ -26,16 +26,20 @@ nav {
 }
 
 .smaller-box {
-    width: 80%;
+    width: 90%;
     position: relative;
-    padding-left: 10%;
+    padding-left: 8%;
+}
+
+.smaller-box-centering{
+  vertical-align: middle;
 }
 
 .header {
     padding: 30px 50px 0px;
     margin-bottom: 0px;
     text-align: center;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Signika', sans-serif;
     font-size: 38px;
     color: rgb(216, 0, 54);
 }
@@ -89,7 +93,6 @@ nav {
     display: inline-block;
     margin: 3%;
     width: 30%;
-    vertical-align: middle;
 }
 
 .circle-img {
@@ -105,6 +108,7 @@ nav {
     border-radius: 50%;
     background-color: #A26769;
     position: relative;
+    margin: auto;
 }
 
 #main-bio {
@@ -141,7 +145,7 @@ nav {
     padding: 40px 50px 0px;
     margin-bottom: 30px;
     text-align: center;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Signika', sans-serif;
     font-size: 42px;
     color: rgb(216, 0, 54);
 }
@@ -320,12 +324,13 @@ nav {
     font-family: 'News Cycle', sans-serif;
     font-size: 18px;
     padding: 2% 4%;
+    text-align: center;
 }
 
 .solid-line {
     border-top: 2px;
     border-style: solid none none none;
-    width: 80%;
+    width: 70%;
     margin: 2% 10% 0%;
     padding: 2% 2% 0% 2%;
 }
@@ -377,14 +382,19 @@ nav {
     width: 50%;
 }
 
-.help-img-center {}
+.help-img-center {
+  vertical-align: top;
+  display: table;
+  margin-left: 10%;
+  width: 100%;
+}
 
 .company-img {
     display: inline-block;
     width: 20%;
-    margin-left: 10%;
-    margin-top: 0%;
     text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .company-other {
@@ -398,6 +408,7 @@ nav {
   text-decoration: none;
   color: #5D5D81;
   font-family: 'Karla', sans-serif;
+  display: inline-block;
 }
 
 .company-logo{
@@ -415,4 +426,5 @@ nav {
   position: relative;
   float: right;
   margin-right: 10%;
+  vertical-align: middle;
 }

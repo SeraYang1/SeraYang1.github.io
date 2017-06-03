@@ -1,10 +1,27 @@
 $(document).ready(function() {
-  var cw = $('#white-circle-border').width();
-  $('#white-circle-border').css({'height':cw+'px'});
+    var cw = $('#white-circle-border').width();
+    $('#white-circle-border').css({
+        'height': cw + 'px'
+    });
 
 
-  var cw = $('.company-circle-border').width();
-  $('.company-circle-border').css({'height':cw+'px'});
+    var cw = $('.company-circle-border').width();
+    $('.company-circle-border').css({
+        'height': cw + 'px'
+    });
+
+    $(window).resize(function() {
+        var cw = $('#white-circle-border').width();
+        $('#white-circle-border').css({
+            'height': cw + 'px'
+        });
+
+
+        var cw = $('.company-circle-border').width();
+        $('.company-circle-border').css({
+            'height': cw + 'px'
+        });
+    });
 
 
     $('#link-sera').click(function() {
