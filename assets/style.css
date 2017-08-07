@@ -195,6 +195,15 @@ nav {
     left: 0.5%;
 }
 
+#color-5 {
+    height: 68%;
+    width: 99%;
+    background-color: #8CABBE;
+    position: absolute;
+    top: 0.5%;
+    left: 0.5%;
+}
+
 .centered-img {
     position: absolute;
     top: 50%;
