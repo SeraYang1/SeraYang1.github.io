@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 nav {
@@ -28,7 +29,7 @@ nav {
 .smaller-box {
     width: 90%;
     position: relative;
-    padding-left: 8%;
+    padding-left: 6%;
 }
 
 .smaller-box-centering{
@@ -86,7 +87,7 @@ nav {
 }
 
 #content {
-    padding: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #main-pic {
